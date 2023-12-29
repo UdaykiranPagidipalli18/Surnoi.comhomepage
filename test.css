@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+header{
+    background-color: rgb(35, 32, 32);
+    color: white;
+    height: 35px;
+}
+
+.head2 {
+    background-color: white;
+    color: #b93333;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+
+.logo-container img {
+    max-height: 85px; /* Adjust the maximum height of the logo */
+    margin-left: 220px;
+}
+
+  
+  nav ul {
+    margin-left: 100px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+  }
+  nav{
+    margin-left: 120px;
+    font-size:larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  /* Style for active link (optional) */
+  nav a:hover,
+  nav a:active {
+    color: #3f72d7; /* Change the color as needed */
+  }
+  button {
+    padding: 10px 15px;
+    background-color:rgb(49, 49, 209);
+    color: #242323;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: black;
+  }
+  
+  button:hover {
+    background-color: #3204e9;
+  }
+  .image-and-text-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-left: 250px;
+    
+  }
+  
+  img {
+    max-width: 100%; /* Make sure the image does not exceed its container */
+    margin-right: 15px; /* Add some space between the image and text */
+    
+  }
+  p{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+
+  .para2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .image-and-text-container2 {
+    display: flex; /* Use flexbox for layout */
+    
+}
+.hands{
+    height: 600px;
+    width: 760px;
+    padding-bottom: 20px;
+}
+    .hr{
+        margin-left: 150px;
+    }
+    .Global{
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 4px;
+        padding: 0px;
+    }
+    .surnoi{
+        font-size: 20px;
+        font-family: serif
+    }
+    .hrpic{
+        margin-left: 150px;
+        height: 150px;
+        width: 200px;
+    }
+    
+        .Services {
+          position: relative;
+          display: inline-block;
+          color: aliceblue;
+        }
+
+    .leftside{
+      display: flex;
+    }
+.services2{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    position:absolute;
+    top: 30px;
+    left: 30;
+}
+.right{
+    display: flex;
+    margin-left: 300px;
+
+}
+.footer{
+display: flex;
+background-image: url('C:\Users\sreen\Desktop\footer backg.webp');
+}
+
+.bgfoot{
+  position: relative;
+          display: inline-block;
+          color: aliceblue;
+  
+}
+.Logo3{
+    margin-left: 200px;
+height: 100px;
+width: 100px;
+}
+.footext{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #0a4f2b;
+}
+
+.Contact{
+    margin-left: 150px;
+}
+h4{
+  font-family:sans-serif;
+  padding-bottom: 10px;
+  font-weight: 3px;
+  font-size: 24px;
+  color: #242323;
+  margin-left: 50px;
+/* text-decoration:underline; */
+}
+
+.header3{
+    background-color: rgb(35, 32, 32);
+    color: white;
+    height: 35px;
+    text-align: center;
+  
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  position:absolute;
+  top: 30px;
+  left: 30;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  color: #000;
+  border: #242323;
+}
+.social-media{
+  margin-left: 202px;
+  width: 122px;
+  height: 20px;
+}
